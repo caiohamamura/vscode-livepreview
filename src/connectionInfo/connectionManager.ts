@@ -147,7 +147,7 @@ export class ConnectionManager extends Disposable {
 	}
 
 	private _validHost(host: string): boolean {
-		return isIPv4(host);
+		return true;
 	}
 
 	private _showIncorrectHostFormatError(host: string): void {
